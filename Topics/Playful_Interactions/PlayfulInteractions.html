@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Playful Interactions</title>
+        <link rel="stylesheet" type="text/css" href="../../main.css">
+        <link rel="stylesheet" type ="text/css" href ="PlayfulInteractions.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <meta charset="UTF-8">
+        <meta name="description" content="Mayar is a User Experience Design Student based in The Hague, the Netherlands.">
+        <meta name="keywords" content="Playful Interactions, Human-Computer Interaction, HCI, UX, User Experience">
+        <meta name="author" content="Mayar"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!--        sidemenu-->
+        <div class="head"></div>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+                <li><a href="../../index.html" >Home</a></li>
+                <li><a href="../../Topics.html" >Topics</a></li>
+                <li><a href="../../Workshops/Workshops.html">Workshops</a></li>
+                <li><a href="../../Excursion/FabriquedesLumi%C3%A8res.html">Excursion</a></li>
+                <li><a href="../../Exposition/Exposition.html">Project</a></li>
+                <li><a href="../../Contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="blog">
+            <div class="blogheaders">
+                <h1 class="blogtitle">Playful Interactions</h1>
+            </div>
+            <div class="blogcontent">
+                <p class="blogtext">
+                    Playing has accompanied humans since the ages of dawn. It is an activity that can be found in every culture and is practiced by people of all ages. With the rise of new technologies, the notion of playing is being reinvented in what is called<i>Playful Interaction</i>. Playful interaction objects and installations expand upon "regular" play, by adding an additional layer of excitement and pleasure to enrishc the user exprience by adding a technological component.Playful interactions need to be intuitive and context dependent. They can be used to motivate behavioral change, enhancing cognitive development, facilitate social interactions, learn a new skill, or merely for pleasure..</p>  
+                <br/>
+                <p> When users interact with playful interaction installations, they progress gradually from <i>onboarding</i> to <i>participation</i>. Onboarding is the phase before the user interacts with the installation and starts with users being aware of the installation some sort of playful interaction. The user then gains interest and if that interest is high enough, the user intention to interact with the installation is formed taking the user to the participation phase. Here the user starts interacting with the installation through exploration. If the installation manages to keep the user engaged, the user continues to interact with the installation until the end of the experience.    </p>
+                <br/>
+                <br/>
+                <br/>
+
+
+                <h3>Playful Interaction Concept</h3>
+                <br/>
+                <p class="blogtext">
+                    An immersive visual and auditory experience based on bodily input of two players to create a harmonious experience with the aim of bringing people together.
+                </p>
+                <br/>
+                <h4>Play Space</h4>
+                <br/>
+                <p class="blogtext">
+                    The play space is an enclosed dark room with projectors used for projection mapping on the walls which is then projected on a mirror-covered floor to create an immersive environment.
+                </p>
+                <br/>
+                <h4>Interaction Between Players</h4>
+                <br/>
+                <p class="blogtext">
+                    The system offers a multiplayer experience suitable for two players. Players conduct parallel actions in which they try to match the other players hand movements to reach a high level of synchronicity. This allows the users to enjoy a harmonious visual and auditory experience as they connect to each other through a bonding cooperative experience.
+                </p>
+                <br/>
+                <h4>Interaction Between Players and the System</h4>
+                <br/>
+                <p class="blogtext">
+                    Players can interact with the system using wireless gloves which record the users' hand movements. Abstract shapes are then projected on the walls in response to this input creating an immersive environnment. These shapes are either harmonious or chaotic depending on how synchronized both players are with each other. The users can also hear music as an extra indicator of the synchronicity between both players. The system offers the players an unstructred and open-ended experience as there is no clear beginning nor end. 
+                </p>
+                <br/>
+                <h4> How it Works</h4>
+                <br/>
+                <p class="blogtext">
+                    The two players wear gloves on both hands. Each of the gloves has wireless motion sensors corresponding to the joints position of the hand. The recorded motion provides kinetic input which is then logged into the computer which processes the joint motions of both players. The output is then visually projected using a noise function in an immersive room. The interactive abstract shapes generated by the noise function become calmer and more regular as the synchronicity between the movements of both players increases. On the other hand, the higher the discrepancy between the movements between the two players, the noisier and more irregular the shapes become reflecting a state of chaos. Thus, the players goal is to synchronize their movements to bring harmony into the space as well as between themselves by mirroring each other’s movements. To calculate the synchronicity between the two players, the joint position value in the 3D space is calculated for each joint and subtracted from that of the position of the other player on the x, y, and z positions with a difference of 0 indicating complete synchronicity. However, a margin of error of 5% is added since mirroring another person’s exact movements is almost impossible, especially for untrained individuals. These values are then parsed to the noise function and then to a draw function eventually projecting the shapes on the walls using projection mapping. These same values are also used to play music corosponding to the shapes state.
+                </p>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <h3>Deep Walls (Example)</h3>
+                <br/>
+                <p>
+                    <a href="https://www.snibbe.com/art/deepwalls"><i>Deep Walls</i></a> is an installation that records those who interact with it on a screen when they intercept the projection beam. The screen is divided into 16 squares with each square being a loop of the recorded interaction with each new recording a random square is updated with a shadow corsponding to the that interaction. The isnatllation allows users to create a cinmatic experience using their body in a playful and interactive way.
+                </p>  
+                <br/>    
+                <h4> How it works</h4>
+                <p>
+                    When users intercept the projection beam, the interactive wall records their moving shadows (input) as the last user exits the beaming area, a recording of the shadows is replayed in a loop on one of the 16 white frames (output). The 16 frames form a bigger frame that has a cinematic quality to it. Each of the frames has a looping duration, after which it is replaced with a new recording. The installation uses computer vision, simulation, and digital projection. The choice for projecting shadows has besides its aesthetic reason, a user experience one as the projecting shadows ensure a perfect emulation of the real shadow and thus maintaining the quality of the experience compared to projecting detailed realistic representations of the users which are likely to be distorted.
+                </p>  
+                <br/>
+
+                <img src="../../Images/DeepWallsPlan.png">
+                <br/>
+                <br/>
+                <p>
+                    Deep walls provides users to engage in unstructured open-ended play as users do not have to follow certain steps and can move freely and if desired endlessly in front of the beamer. The play objective can be defined as seeking pleasure by having fun in moving in front of the beamer and observe the recorded shadow on the screen. However, it can also be seen as competitive as different users try to (in)directly compete with those who went before them by moving in a more interesting way or by making sure that their movement is unique to those on the walls. This competition can extend to users who engage in multiple interactions with the wall as they try to improve their moves or move differently in each consecutive interaction. From this, it is apparent that deep walls can be used by both single and multiplayers to interact with it. Finally, deep walls is built on interdependent actions of the users since the screen is divided into 16 squares to form a frame of moving shadows with each new interaction using the notion of shared object. However, since the screen displays the actions of previous interactions parrael actions can also be observed as players are aware of each others actions, which can then be compares and if desired even macth these actions.
+                </p>
+                <br/>
+                <p>
+                    This installation is interesting as it dates back to the year 2002. Furthermore, it takes people back to the past by simulating an old filming technique. It also allows people star in their own looping cinematic movie whilst enjoying themselves as they move their bodies around.
+                </p>
+                <br/>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/X7h9ckxlxtc?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br/>
+                <br/>
+                <p><b>Creator:</b> <a href="https://www.snibbe.com/">Scott Snibbe</a></p>
+                <br/>
+                <p> <i> An interactive artist and resreacher who creates installations for concert tours, museums, and airports. His resreach extends to interactive music and video, computer vision, and haptics.</i></p>
+                <br/>
+                <br/>
+                <br/>
+
+                <h3>Reflection</h3>
+                <br/>
+                <p>
+                 The topic is quite inspiring as with the rise of the digital age people have been containing most of their playing activities on screens. However, playful interaction brings play back to the physical world using technology. Playful interaction can be implemented in various space to bring them to life and add an extra layer of fun. It is expected that more museums are going to use such installations to appeal to the younger generations who are born with technology in their hands. Playful interactions can also be used in public spaces, education, sports and other fields to teach, engage or motivate those who interact with such a technology.
+                </p>
+                <br/>
+                <br/> 
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

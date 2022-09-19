@@ -1,0 +1,88 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #540D6E;
+    background-color: #161616;
+    background-image: url("Media/EX_Background.jpg");
+    background-position: top;
+    background-repeat: no-repeat; 
+    background-size: contain;
+}
+
+.main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    margin-top: 60px;
+}
+
+.head {
+    background-color: transparent;
+}
+
+a{
+    color: #FFD23F;
+}
+a:hover{
+    color: #540D6E;
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 255, 0.1); 
+}
+.blogheaders{
+    margin-top: 0;
+    text-align: center; 
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #FFD23F;
+
+}
+
+.blogsubtitle{
+    text-align: center; 
+    margin-top: 30px;
+    padding-left: 50px;
+    padding: 0 275px;
+    color: #FFF999;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+
+
+}
+
+.row {margin: 0 50px;}
+
+.row:after {
+    content: "";
+    display: table;
+    margin: 100px;
+
+}
+
+/* Cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 0, 0.1); 
+    padding: 16px;
+    text-align: left;
+    background-color: none;
+}
+.card:hover{
+    color: #540D6E;
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 255, 0.1); 
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

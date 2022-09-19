@@ -1,0 +1,26 @@
+html, body{
+    background: none;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+.project{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.project-content{
+    padding-top: 140px;
+    position: relative;
+    width: 100%;
+}
+
+.project-subs{
+    padding: 20px 0;
+}
+
+.project-skills{
+    padding: 20px 0;
+    font-weight: 400;
+}

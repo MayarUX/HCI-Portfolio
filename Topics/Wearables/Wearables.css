@@ -1,0 +1,74 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #FFD23F;
+    background-color: #161616;
+    background-image: url("../../Images/Hydrogel%20-%20Copy.jpg");
+    background-position: top;
+    background-repeat: no-repeat; 
+    background-size: contain;
+}
+
+.main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    margin-top: 60px;
+}
+
+.head {
+    background-color: transparent;
+}
+
+.blogheaders{
+    margin-top: 0;
+    text-align: center; 
+/*    margin: 10px 0;*/
+
+}
+.blogtitle{
+
+}
+
+.blogsubtitle{
+    margin-top: 10px;
+    color: #FFF999;
+}
+
+.blog
+{
+    width: 60%;
+    vertical-align: middle;
+    margin: 5em 18em;     
+    position: absolute;
+}
+
+.blogcontent{
+    margin-top: 7em;
+    background-color: #FFF999;
+    padding: 20px;
+    letter-spacing: 0.2px;
+    color: #161616;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+/*
+.mainInner{
+display: table;
+height: 100%;
+width: 100%;
+text-align: center;
+}
+.mainInner div{
+display:table-cell;
+vertical-align: middle;
+font-size: 3em;
+font-weight: bold;
+letter-spacing: 1.25px;
+}
